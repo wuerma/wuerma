@@ -1,0 +1,83 @@
+.content .show{
+    width: 719px;
+    height: auto;
+    margin:0 auto;
+    overflow: hidden;
+}
+.content .show .title{
+    color: #ff3795;
+    text-align: center;
+    margin-top: 23px;
+}
+.content .show .description{
+    margin-top: 22px;
+    color:#b7b7b7;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0;
+}
+.content .show .text1{
+    font-size: 16px;
+    line-height:23px;
+    margin-top: 23px;
+    color: #d4d4d4;
+}
+.content .show .imgbox{
+    width:100%;
+    height:513px;
+    margin-top: 25px;
+}
+.content .show .imgbox .imgboxL{
+    width:413px;
+    height:100%;
+    margin-right: 12px;
+    float: left;
+}
+.content .show .imgbox .imgboxL .img1{
+    width:100%;
+    height: 247px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.content .show .imgbox .imgboxL .img2{
+    width:100%;
+    height: 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content .show .imgbox .imgboxR{
+    width:294px;
+    height:100%;
+    float: left;
+}
+.content .show .imgbox .imgboxR .img3{
+    width:100%;
+    height: 341px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.content .show .imgbox .imgboxR .img4{
+    width:100%;
+    height: 165px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content .show .text3{
+    color: #808080;
+    font-size: 14px;
+    margin-top: 47px;
+    line-height: 22px;
+}
+.content .show .text4{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 23px;
+    color: #d4d4d4;
+    margin-bottom: 67px;
+}
