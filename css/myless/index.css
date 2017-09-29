@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.container-fuild {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner {
+  width: 100%;
+  height: 636px;
+  position: relative;
+}
+.banner .img-box {
+  width: 100%;
+  height: 100%;
+}
+.banner .img-box > ul {
+  width: 100%;
+  height: 100%;
+}
+.banner .img-box > ul > li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner .list-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 76px;
+  z-index: 10;
+}
+.title {
+  margin-top: 137px;
+  margin-bottom: 39px;
+  width: 100%;
+}
+.title > img {
+  display: block;
+  margin: auto;
+}
+.jianList {
+  width: 1200px;
+  height: 462px;
+}
+.jianList > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.jianList > ul > li {
+  position: relative;
+  height: 100%;
+  width: 290px;
+  overflow: hidden;
+}
+.jianList > ul > li > div:nth-child(1) {
+  width: 100%;
+  height: 314px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jianList > ul > li > div:nth-child(2) {
+  background: #f4f4f4;
+}
+.jianList > ul > li > div:nth-child(2) > h3 {
+  font-size: 31px;
+  font-weight: normal;
+  color: #8a8a8a;
+  text-align: center;
+}
+.jianList > ul > li > div:nth-child(2) .re {
+  font-size: 18px;
+  color: #8a8a8a;
+  text-align: center;
+}
+.jianList > ul > li > div:nth-child(2) .des {
+  text-align: center;
+  color: #8a8a8a;
+  font-size: 13px;
+  width: 222px;
+  margin: auto;
+  margin-top: 8px;
+  line-height: 21px;
+}
+.jianList > ul > li > div:nth-child(3) {
+  position: absolute;
+  top: 451px;
+  width: 100%;
+  height: 253px;
+  transition: .5s;
+  opacity: 0;
+  background: #fff43c;
+}
+.jianList > ul > li > div:nth-child(3) > h3 {
+  margin-bottom: 10px;
+  font-size: 31px;
+  font-weight: normal;
+  color: #000;
+  text-align: center;
+}
+.jianList > ul > li > div:nth-child(3) .re {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+.jianList > ul > li > div:nth-child(3) .des {
+  text-align: center;
+  color: #000;
+  font-size: 13px;
+  width: 222px;
+  margin: auto;
+  margin-top: 8px;
+  line-height: 21px;
+}
+.jianList > ul > li > div:nth-child(3) > div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: auto;
+  margin-top: 26px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.jlist:hover .t-f {
+  opacity: 1;
+  top: 197px;
+}
+.shiji {
+  margin-top: 195px;
+  margin-bottom: 360px;
+  height: 635px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.shiji .shjList {
+  margin: auto;
+  margin-top: 381px;
+  width: 931px;
+  height: 471px;
+}
+.shiji .shjList > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.shiji .shjList > ul > li {
+  width: 253px;
+  height: 471px;
+  box-shadow: 10px 6px 10px 0px rgba(0, 0, 0, 0.4);
+}
+.shiji .shjList > ul > li > div {
+  width: 100%;
+  height: 50%;
+}
+.shiji .shjList > ul > li > div:nth-child(1) {
+  background: #ff3795;
+}
+.shiji .shjList > ul > li > div:nth-child(1) > div {
+  text-align: center;
+  padding: 0 35px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-top: 34px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+}
+.shiji .shjList > ul > li > div:nth-child(1) > div > span {
+  font-size: 16px;
+  font-weight: 800;
+}
+.shiji .shjList > ul > li > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shiji .shjList > ul > li > div:nth-child(3) {
+  float: left;
+  margin-left: 20px;
+  width: 106px;
+  height: 35px;
+  border-radius: 0 0 8px 8px;
+  background: #fad835;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+.shiji .shjList > ul > li > div:nth-child(3) > a {
+  color: #fff;
+}
