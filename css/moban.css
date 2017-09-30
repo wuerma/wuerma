@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight:normal;
+    font:18px "微软雅黑";
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,figure,em,i,span{
+    font-style: normal;
+}
+body,html{
+    display: block;
+
+    width: 100%;
+    height: auto;
+}
+img{
+    display: block;
+    border: 0;
+}
+a{
+    color: #333;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+
+
+
+.header{
+    width:100%;
+    height: 96px;
+    text-align: center;
+}
+.header .top{
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+.header .top .logo{
+    width: 247px;
+    height: 56px;
+    line-height: 96px;
+    float: left;
+    margin-right: 30px;
+}
+.header .top .list{
+    display: inline-block;
+    float: left;
+    height: 100%;
+    line-height: 96px;
+}
+.header .top .list a{
+    display:block;
+    width: auto;
+    height: calc(100% - 2px);
+    margin: 0 16px;
+    color: #333;
+    float: left;
+    line-height: 56px;
+}
+.header .top .list a:hover,.header .top .list .active{
+    color: #ff3795;
+    border-bottom: 2px solid #ff3795;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 368px;
+    background: #ff3795;
+}
+.footer .bottom{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 75px 0 65px;
+    box-sizing: border-box;
+}
+.footer .bottom .bottom-left{
+    float: left;
+    border-right: 1px solid #333;
+    height: 100%;
+}
+.footer .bottom .bottom-left h1,.bottom-right div h1{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.footer .bottom .bottom-left h2,.bottom-right div h2{
+    font-size: 16px;
+    margin: 10px 0 30px;
+}
+.footer .bottom .bottom-left .info{
+    width: 345px;
+    height: auto;
+}
+.footer .bottom .bottom-left .info li{
+    width: 100%;
+}
+.footer .bottom .bottom-left .info li span{
+    width: 25px;
+    margin-right: 18px;
+    float: left;
+}
+.footer .bottom .bottom-left .info li p{
+    float: left;
+}
+.footer .bottom .bottom-right{
+    width: calc(100% - 346px);
+    height: 100%;
+    float: right;
+    padding-left: 55px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .bottom .bottom-right>div{
+    height: 100%;
+}
+.footer .bottom .bottom-right>div>div>a{
+    color: #fff;
+    margin-right: 20px;
+}
+.footer .bottom .bottom-right .erweima{
+    width: 215px;
+    height: 215px;
+    background: #fff;
+}
+
+.mianbao{
+    width: 100%;
+    height: 24px;
+    margin: 30px 0 0;
+}
+.mianbao .mbxie{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    line-height:36px;
+}
+
+.mianbao .mbxie span,.mianbao .mbxie a{
+    float: left;
+}
+.mianbao .mbxie .xiaotu{
+    display: block;
+    width: 50px;
+    height: 100%;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+.mianbao .mbxie .jiantou{
+    margin: 0 10px;
+}
+.mianbao .mbxie a{
+    font-weight: 600;
+}
+.mianbao .mbxie .dangqian{
+    color: #ff3795;
+}
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.fenhongse{
+    width: 100%;
+    height: 160px;
+}
